@@ -15,7 +15,7 @@
     "path": "/rule_templates"
   },
   "es_host": "10.30.30.151",
-  "es_port": 9200,
+  "es_port": 8881,
   "es_username": "horusadmin",
   "es_password": "@xoxotolino2019!!",
   "es_ssl": false,
