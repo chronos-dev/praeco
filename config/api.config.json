@@ -14,10 +14,10 @@
     "relative": true,
     "path": "/rule_templates"
   },
-  "es_host": "elasticsearch",
+  "es_host": "10.30.30.151",
   "es_port": 9200,
-  "es_username": "",
-  "es_password": "",
+  "es_username": "horusadmin",
+  "es_password": "@xoxotolino2019!!",
   "es_ssl": false,
   "writeback_index": "praeco_elastalert_status"
 }
