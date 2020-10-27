@@ -16,8 +16,8 @@
   },
   "es_host": "10.30.30.151",
   "es_port": 8881,
-  "es_username": "horusadmin",
-  "es_password": "@xoxotolino2019!!",
+  "es_username": "superuser",
+  "es_password": "xoxoto1234",
   "es_ssl": false,
   "writeback_index": "praeco_elastalert_status"
 }
