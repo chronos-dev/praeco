@@ -12,7 +12,7 @@ services:
       - ./rules:/opt/elastalert/rules
       - ./rule_templates:/opt/elastalert/rule_templates
     extra_hosts:
-      - 'elasticsearch:${PRAECO_ELASTICSEARCH}'
+      - 'elasticsearch:10.30.30.151'
 
   webapp:
     image: 'praecoapp/praeco'
