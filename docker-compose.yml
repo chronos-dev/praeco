@@ -7,10 +7,10 @@ services:
       - 3030:3030
       - 3333:3333
     volumes:
-      - ./config/elastalert.yaml:/opt/elastalert/config.yaml
-      - ./config/api.config.json:/opt/elastalert-server/config/config.json
-      - ./rules:/opt/elastalert/rules
-      - ./rule_templates:/opt/elastalert/rule_templates
+      - /media/storage/praeco/config/elastalert.yaml:/opt/elastalert/config.yaml
+      - /media/storage/praeco/config/api.config.json:/opt/elastalert-server/config/config.json
+      - /media/storage/praeco/rules:/opt/elastalert/rules
+      - /media/storage/praeco/rule_templates:/opt/elastalert/rule_templates
     extra_hosts:
       - 'elasticsearch:10.30.30.151'
 
@@ -19,6 +19,6 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./public/praeco.config.json:/var/www/html/praeco.config.json
-      - ./nginx_config/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx_config/default.conf:/etc/nginx/conf.d/default.conf
+      - /media/storage/praeco/public/praeco.config.json:/var/www/html/praeco.config.json
+      - /media/storage/praeco/nginx_config/nginx.conf:/etc/nginx/nginx.conf
+      - /media/storage/praeco/nginx_config/default.conf:/etc/nginx/conf.d/default.conf
